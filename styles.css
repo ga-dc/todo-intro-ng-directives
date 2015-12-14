@@ -31,7 +31,7 @@ h1 {
   font-family: 'Bree Serif', serif;
 }
 
-main {
+div[ng-controller] {
   background: linear-gradient(to bottom, #49B5D5 0%, #76CBE5 100%);
   border: 5px solid #FBD93D;
   border-radius: 10px;
