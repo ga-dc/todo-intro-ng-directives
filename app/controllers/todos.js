@@ -1,10 +1,10 @@
 var app = angular.module("todo");
 app.controller("todosController", function(){
   this.todos = [
-    "Walk the Dog",
-    "Buy Groceries",
-    "Eat foot",
-    "Smell fish"
+    "Walk the dog",
+    "Buy groceries",
+    "Drink coffee",
+    "Wake up like this"
   ];
   this.formIsVisible = false;
   this.toggleForm = function(){
@@ -29,5 +29,5 @@ app.controller("todosController", function(){
   };
   this.delete = function(index){
     this.todos.splice(index, 1);
-  }
+  };
 });
